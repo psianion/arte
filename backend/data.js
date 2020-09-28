@@ -10,6 +10,7 @@ export default {
       artist: "Ali Bakchod",
       description:
         "This is a sketch of Buddha made with Charcoal on paper on a 12x12 ft. sheet.",
+      countInStock: 0,
     },
     {
       _id: "2",
@@ -19,6 +20,7 @@ export default {
       price: 199,
       category: "Sketch",
       rating: 4,
+      countInStock: 2,
       artist: "Ali Bakchod",
     },
     {
@@ -29,6 +31,7 @@ export default {
       price: 199,
       category: "Sketch",
       rating: 4,
+      countInStock: 2,
       artist: "Ali Bakchod",
     },
     {
@@ -37,12 +40,14 @@ export default {
       image: "../images/img-02.jpg",
       category: "Sketch",
       price: 199,
+      countInStock: 2,
       rating: 4,
       artist: "Ali Bakchod",
     },
     {
       _id: "5",
       name: "Buddhaa",
+      countInStock: 2,
       category: "Sketch",
       image: "../images/img-03.png",
       price: 199,
@@ -56,6 +61,7 @@ export default {
       category: "Sketch",
       price: 199,
       rating: 4,
+      countInStock: 2,
       artist: "Ali Bakchod",
     },
     {
@@ -63,6 +69,7 @@ export default {
       name: "Buddhaa",
       image: "../images/img-08.jpg",
       category: "Sketch",
+      countInStock: 2,
       price: 199,
       rating: 4,
       artist: "Ali Bakchod",
@@ -72,15 +79,7 @@ export default {
       category: "Sketch",
       name: "Buddhaa",
       image: "../images/img-02.jpg",
-      price: 199,
-      rating: 4,
-      artist: "Ali Bakchod",
-    },
-    {
-      _id: "9",
-      name: "Buddhaa",
-      image: "../images/img-03.png",
-      category: "Sketch",
+      countInStock: 2,
       price: 199,
       rating: 4,
       artist: "Ali Bakchod",
