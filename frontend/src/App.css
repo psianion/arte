@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.cart,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.products {
+  background-image: url("/images/img-1.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #f4eeff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.backtoproducts {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.backtoproducts:hover {
+  color: #424874;
+}
+
+.details-container {
+  display: flex;
+  margin: 1rem 5rem 1.2rem 5rem;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  background: #f1f1f1;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .details-container {
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .details-image {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .details-image img {
+    border-radius: 10px;
+  }
+  .details-info {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .details-name {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  .details-action {
+    min-width: 100%;
+  }
+  .details-description {
+    padding: 10px;
+  }
+}
+
+.details-image {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  background: #f0f0f0;
+}
+
+.details-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  max-height: 100%;
+}
+
+.details-name {
+  text-align: start;
+  display: block;
+  font: "Raleway";
+  color: #222222;
+}
+
+.details-artist {
+  display: block;
+  color: #6d6d6d;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.details-ratings {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0a016;
+  font-weight: 500;
+}
+
+.details-price {
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff7300;
+  font-weight: 500;
+}
+
+.details-price i {
+  padding-right: 5px;
+  font-size: large;
+}
+
+.details-description {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.details-action {
+  background-color: #f5f5f5;
+  margin: 2px !important;
+  border-radius: 15px;
+  box-shadow: 0 2px 7px #b1b1b1;
+  height: fit-content;
+}
+
+li {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.25px;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 15px;
+  color: #222222;
+}
+
+select {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.cart-button {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: #424874;
+  color: #f8f8f8;
+}
+
+.cart-button:hover {
+  background-color: #a6b1e1;
+}

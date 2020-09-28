@@ -9,7 +9,7 @@ export default {
       category: "Sketch",
       artist: "Ali Bakchod",
       description:
-        "This is a sketch of Buddha made with Charcoal on paper on a 12x12 ft. sheet.",
+        "dufhous fdbfjdsb bfeub adsbfjbj a kv adoj vjds jv dsj vjs fjov sdjo jof",
     },
     {
       _id: "2",
