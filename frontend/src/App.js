@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Cart from "./components/pages/Cart";
 import Products from "./components/pages/Products";
 import Product from "./components/pages/Product";
-import SignUp from "./components/pages/SignUp";
+import SignIn from "./components/pages/SignIn";
+import RegisterScreen from "./components/pages/Register";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route path="/cart/:id?" component={Cart} />
           <Route path="/products" component={Products} />
           <Route path="/product/:id" component={Product} />
-          <Route path="/sign-up" component={SignUp} />
+          <Route path="/signin" component={SignIn} />
+          <Route path="/register" component={RegisterScreen} />
         </Switch>
       </Router>
     </>
